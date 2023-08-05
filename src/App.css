@@ -1,0 +1,101 @@
+
+.App {
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.history {
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgb(43, 185, 233);
+    padding: 10px;
+    max-height: 800px;
+    overflow-y: auto;
+    margin: auto 0;
+}
+
+.history-fields {
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+}
+.history-fields:hover {
+    background-color: rgb(0, 135, 181);
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.wrapper {
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: auto 0;
+    padding: 10px;
+    
+}
+
+.screen {
+    width: 90%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10%;
+    font-size: 40px;
+}
+
+.screen-sign {
+    margin-right: auto;
+}
+
+.buttonBox {
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    
+    
+    
+
+}
+
+button {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 9px;
+    margin: auto;
+    background-color: lightgreen;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.equal {
+    grid-column: 3/5;
+    width: 86%;
+    
+}
